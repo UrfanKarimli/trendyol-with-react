@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: source_sans_proregular, sans-serif !important;
+}
+
+// .App {
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+.container {
+    min-width: 1200px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    background-color: #fafafa;
+}

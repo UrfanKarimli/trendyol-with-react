@@ -1,0 +1,17 @@
+.counter-content {
+    width: 42px;
+    user-select: none;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #4a4a4a;
+    box-sizing: border-box;
+    border: none;
+    border-top: solid 1px #e6e6e6;
+    border-bottom: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    outline: none;
+    text-align: center;
+}

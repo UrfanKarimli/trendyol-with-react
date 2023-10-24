@@ -1,0 +1,96 @@
+.form {
+    width: 330px;
+
+    .log-mail-wrap {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        .log-text-label {
+            display: block;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 0;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .log-text-input {
+            font-size: 14px;
+            background-color: #fafafa;
+            border: 1px solid #e6e6e6;
+            padding: 10px;
+            appearance: none;
+            height: 44px;
+            line-height: 30px;
+            border-radius: 3px;
+        }
+    }
+
+    .password-wrapper {
+        margin-bottom: 8px;
+
+        .password {
+            margin-top: 20px;
+            position: relative;
+
+            .log-pass-wrap {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                .log-pas-label {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 18px;
+                    padding: 0;
+                    color: #333;
+                    margin-bottom: 10px;
+                }
+
+                .log-pas-input {
+                    font-size: 14px;
+                    background-color: #fafafa;
+                    border: 1px solid #e6e6e6;
+                    padding: 10px;
+                    appearance: none;
+                    height: 44px;
+                    line-height: 30px;
+                    border-radius: 3px;
+                }
+            }
+
+            .eye-icons {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                cursor: pointer;
+                color: #999999;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .forgot-password {
+        font-size: 14px;
+        text-align: end;
+
+        a {
+            cursor: context-menu;
+            color: #333333;
+            text-decoration: underline;
+            transition: all 0.3s ease;
+            &:hover {
+                color: #f27a1a;
+            }
+
+        }
+    }
+}

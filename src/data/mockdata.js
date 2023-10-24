@@ -1,0 +1,1 @@
+export const InputText = [{ type: 'text', placeholder: 'adinizi daxil edin' }]
