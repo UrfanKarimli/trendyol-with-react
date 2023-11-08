@@ -7,6 +7,8 @@ import { BiUser, BiSolidUser } from 'react-icons/bi'
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai'
 import { PiShoppingCartFill, PiShoppingCartLight } from 'react-icons/pi'
 import "../styles/components/header.scss"
+import LogoImg from "../image/ty-cumhuriyet-100-logo.svg"
+
 
 const Header = () => {
     return (
@@ -32,7 +34,7 @@ const Header = () => {
                     <div className="header-buttom">
                         <div className="logo">
                             <Link to={"/"}>
-                            <img src="../../public/img/ty-web.svg" alt="trendyol" />
+                            <img src={LogoImg} alt={LogoImg} />
                             </Link>
                         </div>
                         <div className="search-block">

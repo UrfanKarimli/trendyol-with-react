@@ -1,11 +1,29 @@
 import React from 'react';
-import Header from '../components/Header';
+import CeoContent from '../components/CeoContent';
+import ComponentsItem from '../components/ComponentsItem';
+import "../styles/pages/home.scss"
+
 
 const Home = () => {
   return (
-    <>
-        <Header/>
-    </>
+    <div>
+      <div className="container">
+        <div className="component-list">
+        <ComponentsItem/>
+        <ComponentsItem/>
+        <ComponentsItem/>
+        <ComponentsItem/>
+        <ComponentsItem/>
+        <ComponentsItem/>
+
+        </div>
+
+
+
+      <CeoContent/>
+      </div>
+     
+    </div>
   )
 }
 

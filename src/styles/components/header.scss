@@ -40,7 +40,7 @@
             .logo {
                 a {
                     img {
-                        width: 146px;
+                        width: 210px;
                         height: 100%;
                         margin-bottom: -3px;
                     }
@@ -333,8 +333,7 @@
                         width: 100%;
 
                         .tab-link {
-                            flex-shrink: 0;
-                            flex-grow: 1;
+                                width: fit-content;
 
                             .category-header {
                                 font-family: source_sans_prosemibold, sans-serif !important;
@@ -352,6 +351,12 @@
                                 letter-spacing: 0.18px;
                                 text-align: center;
                                 font-weight: 600;
+                                padding: 0 10px;
+
+                                &:hover {
+                                    color: #f27a1a;
+                                    border-bottom: 3px solid #f27a1a;
+                                }
                             }
 
                             .sub-nav {
