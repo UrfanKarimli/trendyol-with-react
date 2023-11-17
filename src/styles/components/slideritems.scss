@@ -1,0 +1,82 @@
+#slider-items {
+    padding: 0 12.5px;
+    box-sizing: border-box;
+    height: fit-content;
+    margin-bottom: 25px;
+    margin-top: 35px;
+
+    .slider-circule {
+        .circule-row {
+            position: relative;
+
+            .right-arrow {
+                position: absolute;
+                top: calc(40% - 28px);
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                z-index: 500;
+                cursor: pointer;
+                border: none;
+                right: -75px;
+            }
+
+            .left-arrow {
+                position: absolute;
+                top: calc(40% - 28px);
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                z-index: 500;
+                cursor: pointer;
+                border: none;
+                left: -75px;
+            }
+
+            .items-row {
+                display: flex;
+                overflow-y: hidden;
+                overflow-x: auto;
+                max-height: 120px;
+
+                .item {
+                    display: flex !important;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 115px;
+                    &:hover img {
+                        border-color: #f27a1a;
+                    }
+                    &:hover span {
+                        color: #f27a1a;
+                    }
+
+                    img {
+                        border: 1px solid #e6e6e6;
+                        border-radius: 50%;
+                        box-sizing: border-box;
+                        display: block;
+                        width: 68px;
+                        height: 68px;
+                        margin: 0;
+                        transition: all ease 0.2s;
+                    }
+
+                    span {
+                        font-family: 'source_sans_prosemibold', sans-serif;
+                        text-align: center;
+                        margin-top: 10px;
+                        color: #333;
+                        font-size: 14px;
+                        display: block;
+                        transition: all ease 0.2s;
+                        line-height: 14px;
+                        height: 42px;
+                    }
+                }
+            }
+        }
+    }
+}

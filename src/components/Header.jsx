@@ -18,7 +18,7 @@ const Header = () => {
                     <div className="header-top">
                         <ul>
                             <li>
-                                <a href="#">Indirim kuponlarım</a>
+                                <Link to={"/indirim-kuponlari"}>Indirim kuponlarım</Link>
                             </li>
                             <li>
                                 <a href="#">Trendyol`da Satış yap</a>
@@ -137,7 +137,6 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div className="header-nav">
                     <div className="nav-container">
@@ -145,7 +144,7 @@ const Header = () => {
                             <nav>
                                 <ul className='main-nav'>
                                     <li className='tab-link'>
-                                        <a href="#" class="category-header navbar-first-cap">Kadın</a>
+                                        <a href="#" className="category-header navbar-first-cap">Kadın</a>
                                         <div className='sub-nav'>
                                             <div className="sub-nav-center">
                                                 <div className="sub-nav-outer">

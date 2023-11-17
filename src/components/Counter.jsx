@@ -16,6 +16,7 @@ const Counter = ({ className }) => {
         }
     }
 
+    
     return (
         <div className={`d-flex ${className}`}>
             <Button onClick={decriment} className="btn decriment" >

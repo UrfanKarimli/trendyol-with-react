@@ -1,0 +1,29 @@
+#link-header {
+    margin-bottom: 25px;
+    padding: 0 12.5px;
+    box-sizing: border-box;
+    height: fit-content;
+    .products-row {
+        display: flex;
+
+        a {
+            margin-right: 20px;
+            width: 386.67px;
+            height: 56.9829px;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin-bottom: 20px;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 6px;
+            }
+        }
+    }
+}

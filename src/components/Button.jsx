@@ -7,3 +7,4 @@ const Button = ({className, type, id, text,onClick, children}) => {
 }
 
 export default Button
+

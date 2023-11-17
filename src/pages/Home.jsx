@@ -2,6 +2,9 @@ import React from 'react';
 import CeoContent from '../components/CeoContent';
 import ComponentsItem from '../components/ComponentsItem';
 import "../styles/pages/home.scss"
+import ComponentsItem2 from '../components/ComponentsItem2';
+import SliderItems from '../components/SliderItems';
+import LinkHeader from '../components/LinkHeader';
 
 
 const Home = () => {
@@ -9,20 +12,22 @@ const Home = () => {
     <div>
       <div className="container">
         <div className="component-list">
-        <ComponentsItem/>
-        <ComponentsItem/>
-        <ComponentsItem/>
-        <ComponentsItem/>
-        <ComponentsItem/>
-        <ComponentsItem/>
-
+          <SliderItems/>
+          <LinkHeader/>
+          <ComponentsItem />
+          <ComponentsItem />
+          <ComponentsItem />
+          <ComponentsItem />
+          <ComponentsItem />
+          <ComponentsItem />
+          <ComponentsItem2 />
         </div>
 
 
 
-      <CeoContent/>
+        <CeoContent />
       </div>
-     
+
     </div>
   )
 }
